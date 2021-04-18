@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Classes</title>
+	<link rel="stylesheet" href="class.css">
+	<style>img[alt="www.000webhost.com"]{display:none;}</style>
+</head>
+<body>
+	<div class="previous">
+	<a href="javascript:history.go(-1)"onMouuseOver="self.status.referrer;return true">&laquo; Previous</a>
+	<a href="javascript:history.go(+1)"onMouuseOver="self.status.referrer;return true">Next &raquo;</a>
+	</div>
+
+		<div class="class"><center><br><br><h2>Class-6: অপারেশন নিয়ে বিস্তারিত</h2><br></center>
+<b>অপারেশনের প্রকারভেদঃ</b> পাইথনে অপারেশন ৭ প্রকার। যথাঃ<br>
+		
+		<div class="va"><b>1. Arithmetic operators (গাণিতিক অপারেশন):</b> Arithmetic operators are used to perform mathematical operations like addition, 
+subtraction, multiplication and division.<br>
+<pre>
+
+OPERATOR	DESCRIPTION	SYNTAX
+
+  +		যোগ করার জন্য	x + y
+  -		বিয়োগ করার জন্য	x - y
+  *		গুণ করার জন্য	x * y
+  /		ভাগ করার জন্য	x / y
+  //	পূর্ণ ভাগফল পাওয়ার জন্য	x // y
+  %	ভাগশেষ পাওয়ার জন্য		x % y
+
+# Examples of Arithmetic Operator 
+a = 9
+b = 4
+  
+# যোগ করার জন্য,
+add = a + b 
+
+# বিয়োগ করার জন্য, 
+sub = a - b 
+
+# গুণ করার জন্য, 
+mul = a * b 
+
+# ভাগ করার জন্য,  
+div1 = a / b 
+
+# পূর্ণ ভাগফল পাওয়ার জন্য,  
+div2 = a // b 
+
+# ভাগশেষ পাওয়ার জন্য,
+mod = a % b 
+  
+# print results 
+print(add) 
+print(sub) 
+print(mul) 
+print(div1) 
+print(div2) 
+print(mod) 
+
+Output:
+	13
+	5
+	36
+	2.25
+	2
+	1
+</pre><br><br>
+
+<b>2. Relational Operators (তুলনামূলক অপারেটর):</b> Relational operators compares the values. It either returns True or False according to the condition.
+<br><br><pre>
+OPERATOR	DESCRIPTION		SYNTAX 
+</pre><br>
+> &nbsp;&nbsp;&nbsp; Greater than: True if left operand is greater than the right &nbsp;&nbsp;&nbsp; x > y<br>
+< &nbsp;&nbsp;&nbsp; Less than: True if left operand is less than the right &nbsp;&nbsp;&nbsp; x < y<br>
+== &nbsp;&nbsp;&nbsp; Equal to: True if both operands are equal	&nbsp;&nbsp;&nbsp; x == y<br>
+!= &nbsp;&nbsp;&nbsp; Not equal to - True if operands are not equal &nbsp;&nbsp;&nbsp; x != y<br>
+>= &nbsp;&nbsp;&nbsp; Greater than or equal to: True if left operand is greater than or equal to the right &nbsp;&nbsp;&nbsp; x >= y<br>
+<= &nbsp;&nbsp;&nbsp; Less than or equal to: True if left operand is less than or equal to the right &nbsp;&nbsp;&nbsp; x <= y<br>
+<br><br>
+# Examples of Relational Operators<br>
+a = 13 <br>
+b = 33<br><br>
+
+# a > b is False <br>
+print(a > b)<br><br>
+  
+# a < b is True <br>
+print(a < b)<br><br>
+  
+# a == b is False <br>
+print(a == b)<br><br>
+  
+# a != b is True <br>
+print(a != b)<br><br>
+  
+# a >= b is False <br>
+print(a >= b)<br><br>
+  
+# a <= b is True <br>
+print(a <= b)<br><br>
+<pre>
+Output:
+	False
+	True
+	False
+	True
+	False
+	True
+
+</pre><br><br>
+<b>3.Logical operators:</b> Logical operators perform Logical AND, Logical OR and Logical NOT operations.
+
+<br><br><pre>
+OPERATOR	DESCRIPTION		SYNTAX
+</pre><br>
+and &nbsp;&nbsp;&nbsp; Logical AND: True if both the operands are true &nbsp;&nbsp;&nbsp; x and y<br>
+or &nbsp;&nbsp;&nbsp; Logical OR: True if either of the operands is true &nbsp;&nbsp;&nbsp; x or y<br>
+not &nbsp;&nbsp;&nbsp; Logical NOT: True if operand is false &nbsp;&nbsp;&nbsp; x not y<br>
+<br><br>
+
+# Examples of Logical Operator <br>
+a = True <br>
+b = False<br><br>
+  
+# Print a and b is False <br>
+print(a and b) <br><br>
+  
+# Print a or b is True <br>
+print(a or b) <br><br>
+  
+# Print not a is False <br>
+print(not a) <br><br>
+<pre>
+Output:
+	False
+	True
+	False
+</pre><br><br>
+
+<b>4. Bitwise operators:</b> Bitwise operators acts on bits and performs bit by bit operation.
+<pre><br>
+OPERATOR	DESCRIPTION	SYNTAX
+
+&	Bitwise AND	x & y
+|	Bitwise OR	x | y
+~	Bitwise NOT	~x
+^	Bitwise XOR	x ^ y
+>>	Bitwise right shift	x>>
+<<	Bitwise left shift	x<<
+
+# Examples of Bitwise operators
+	a = 10
+	b = 4
+  
+# Print bitwise AND operation  
+	print(a & b) 
+  
+# Print bitwise OR operation 
+	print(a | b) 
+  
+# Print bitwise NOT operation  
+	print(~a) 
+  
+# print bitwise XOR operation  
+	print(a ^ b) 
+  
+# print bitwise right shift operation  
+	print(a >> 2) 
+  
+# print bitwise left shift operation  
+	print(a << 2) 
+
+Output:
+	0
+	14
+	-11
+	14
+	2
+	40
+</pre><br><br>
+
+<b>5.Assignment operators: Assignment operators are used to assign values to the variables.</b>
+<br>
+<pre>
+OPERATOR	DESCRIPTION							SYNTAX
+</pre>
+= &nbsp;&nbsp;&nbsp; Assign value of right side of expression to left side operand &nbsp;&nbsp;&nbsp; x = y + z<br>
++=&nbsp;&nbsp;&nbsp; Add AND: Add right side operand with left side operand and then assign to left operand: &nbsp;&nbsp;&nbsp; a+=b (a=a+b)<br>
+-=&nbsp;&nbsp;&nbsp; Subtract AND: Subtract right operand from left operand and then assign to left operand: &nbsp;&nbsp;&nbsp; a-=b (a=a-b)<br>
+*=&nbsp;&nbsp;&nbsp; Multiply AND: Multiply right operand with left operand and then assign to left operand: &nbsp;&nbsp;&nbsp; a*=b (a=a*b)<br>
+/=&nbsp;&nbsp;&nbsp; Divide AND: Divide left operand with right operand and then assign to left operand: &nbsp;&nbsp;&nbsp; a/=b (a=a/b)<br>
+%=&nbsp;&nbsp;&nbsp; Modulus AND: Takes modulus using left and right operands and assign result to left operand: &nbsp;&nbsp;&nbsp; a%=b (a=a%b)<br>
+//=&nbsp;&nbsp;&nbsp; Divide(floor) AND: Divide left operand with right operand and then assign the value(floor) to left operand: &nbsp;&nbsp;&nbsp; a//=b (a=a//b)<br>
+**=&nbsp;&nbsp;&nbsp; Exponent AND: Calculate exponent(raise power) value using operands and assign value to left operand: &nbsp;&nbsp;&nbsp; a**=b  (a=a**b)<br>
+&=&nbsp;&nbsp;&nbsp; Performs Bitwise AND on operands and assign value to left operand: &nbsp;&nbsp;&nbsp; a&=b  (a=a&b)<br>
+|=&nbsp;&nbsp;&nbsp; Performs Bitwise OR on operands and assign value to left operand: &nbsp;&nbsp;&nbsp; a|=b  (a=a|b)<br>
+^=&nbsp;&nbsp;&nbsp; Performs Bitwise xOR on operands and assign value to left operand: &nbsp;&nbsp;&nbsp; a^=b  (a=a^b)<br>
+>>=&nbsp;&nbsp;&nbsp; Performs Bitwise right shift on operands and assign value to left operand: &nbsp;&nbsp;&nbsp; a>>=b  (a=a>>b)<br>
+<<=&nbsp;&nbsp;&nbsp; Performs Bitwise left shift on operands and assign value to left operand: &nbsp;&nbsp;&nbsp; a <<= b (a= a << b)<br>
+<br><br>
+
+<b>6.Special operators:</b> There are some special type of operators like-Identity operators-
+is and is not are the identity operators both are used to check if two values are located on the same part of the memory. Two variables that are equal does not imply that they are identical.
+<pre><br>
+Operator		Destination
+</pre>
+is &nbsp;&nbsp;&nbsp;&nbsp; True if the operands are identical <br>
+is not &nbsp;&nbsp;&nbsp;&nbsp; True if the operands are not identical <br>
+<br><pre>
+# Examples of Identity operators 
+	a1 = 3
+	b1 = 3
+
+	a2 = 'python code'
+	b2 = 'python code'
+	a3 = [1,2,3] 
+	b3 = [1,2,3] 
+
+	print(a1 is not b1) 
+  	print(a2 is b2) 
+  
+# Output is False, since lists are mutable. 
+	print(a3 is b3) 
+Output:
+	False
+	True
+	False
+</pre><br><br>
+<b>7.Membership operators-</b> in and not in are the membership operators; used to test whether a value or variable is in a sequence.
+<pre><br>
+Operator	Destination
+</pre><br>
+in &nbsp;&nbsp;&nbsp;&nbsp; True if value is found in the sequence<br>
+not in &nbsp;&nbsp;&nbsp;&nbsp; True if value is not found in the sequence<br>
+<pre><br>
+# Examples of Membership operator 
+	x = 'python code python'
+	y = {3:'a',4:'b'} 
+  
+  print('G' in x) 
+  print('python' not in x) 
+  print('python' not in x) 
+  print(3 in y) 
+  print('b' in y) 
+
+Output:
+	True
+	True
+	False
+	True
+	False
+</pre><br>
+সংগ্রহণ ও সম্পাদনায় মোঃ ফয়ছাল আহমেদ<br>
+
+
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Classes</title>
+	<link rel="stylesheet" href="class.css">
+	<style>img[alt="www.000webhost.com"]{display:none;}</style>
+</head>
+<body>
+	<div class="previous">
+	<a href="javascript:history.go(-1)"onMouuseOver="self.status.referrer;return true">&laquo; Previous</a>
+	<a href="javascript:history.go(+1)"onMouuseOver="self.status.referrer;return true">Next &raquo;</a>
+	</div>
+
+		<div class="class"><center><br><br><h2>Class-5: If - else statement-</h2><br></center>
+		
+		<div class="va"><b>if- else:</b> দৈনন্দিন জীবনে যেমন আমাদের if-else -এর ব্যবহার অত্যাধিক ঠিক তেমনি প্রোগ্রামিংয়েও এর ব্যবহার খুবই গুরুত্বপূর্ণ। 
+আমরা এর ব্যবহার প্রতিনিয়তই করে থাকি। যেমন- আপনি যদি খেলায় অংশগ্রহণ করে প্রথম হোন তাহলে প্রথম পুরস্কার পাবেন। আর যদি দ্বিতীয় হোন তাহলে দ্বিতীয় পুরস্কার পাবেন। আর যদি তৃতীয় 
+হোন তাহলে তৃতীয় পুরস্কার পাবেন। অন্যথায় আপনি পুরস্কার পাবেন না অথবা শান্তনা পুরস্কার পাবেন। এই বাক্যগুলোতে ব্যবহৃত শব্দ 'যদি', 'আর যদি', 'অন্যথায়' এগুলোই মূলত শর্তাধীন শব্দসমূহ।<br>
+if else বিবৃতিতে কাজ করার পূর্বে আমাদের সে সম্পর্কে ভালো করে জেনে নিতে হবে।<br><br>
+<b>if, elif, else বলতে যা বোঝায়ঃ</b> if মানে যদি; elif মানেও যদি; তবে একই বিবৃতিতে একাধিকবার if ব্যবহারের প্রয়োজন হলে আমরা শুধু প্রথমবার if ব্যবহার করব, আার 
+বাকিক্ষেত্রে elif ব্যবহার করব। elif কে if এর সমার্থক শব্দও বলা যেতে পারে; else মানে অন্যথায়। if এর সকল স্টেটমেন্ট মিথ্যা হলে else কাজ করবে। if else নিয়ে আরেকটু 
+স্পষ্ট হবে যদি আমরা একটি কোড করে আসি। তো চলুন উপরে বর্ণিত বিবৃতিটিকে প্রোগ্রামিংয়ের ভাষায় রূপান্তর করা যাক,<br><br>
+<pre>
+১. প্রথমে একটি ভেরিয়েবল ডিক্লেয়ার করে তাতে integer ইনপুট নেই।
+you = int(input())
+
+২. আপনি যদি খেলায় প্রথম হোন তাহলে প্রথম পুরস্কার পাবেন।
+if (you == 1):
+	print("Take your 1st prize")
+
+২. আর যদি দ্বিতীয় হোন তাহলে দ্বিতীয় পুরস্কার পাবেন।
+elif (you == 2):
+	ptint("Take your 2nd prize")
+
+৩. আর যদি তৃতীয় হোন তাহলে তৃতীয় পুরস্কার।
+elif (you == 3):
+	print("Take your 3rd prize")
+
+৪. অন্যথায় আপনি পুরস্কার পাবেন না।
+else:
+	print("Didn't get any prize")
+</pre><br><br>
+সম্পূর্ণ কোডটি একত্র করলে দাঁড়ায়,<br>
+<pre>
+you = int(input())
+
+if you == 1:
+	print("Take your 1st prize")
+elif you == 2:
+	print("Take your 2nd prize")
+elif you == 3:
+	print("Take your 3rd prize")
+else:
+	print("Didn't get any prize")
+
+input:
+	1
+output:
+	Take your 1st prize
+
+input:
+	3
+output:
+	Take your 3rd prize
+
+input:
+	5
+output:
+	Didn't get any prize
+</pre><br><br>
+
+★★আবার খেলায় যদি শুধু প্রথম পুরস্কার থাকে তাহলে আমরা কোডটিকে নিম্নোক্তভাবে লিখতে পারি,<br><br>
+
+১. যদি খেলায় প্রথম হোন তাহলে প্রথম পুরস্কার।<br>
+<pre>
+if (you ==1):
+     print("Take your first prize")</pre><br><br>
+
+২. অন্যথায় পুরস্কার পাবেন না।<br>
+</pre>
+else:
+    print("Didn't get any prize")</pre><br><br>
+তো আশা করি if-else সম্পর্কে আপনাদের স্পষ্ট ধারনা দিতে পেরেছি। আর যদি কোথাও বুঝতে সমস্যা হয় তাহলে আমাদের সাথে যোগাযোগ করতে পারেন।<br><br>
+<b>বাড়ির কাজঃ</b> if-else দিয়ে কয়েকটি প্রোগ্রাম করা। যেমনঃ যদি আজকে শুক্রবার হয় তাহলে কলেজে যাব না। অন্যথায় কলেজে যাব।<br><br>
+
+	</div>
+</div>
+</body>
+</html>
